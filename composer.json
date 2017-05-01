@@ -1,0 +1,13 @@
+{
+    "name": "rorikurniadi/google-speech-app",
+    "description": "Google Speech API client upload file and convert to text",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rori Kurniadi",
+            "email": "rori.kurniadi@yahoo.com"
+        }
+    ],
+    "require": {}
+}
