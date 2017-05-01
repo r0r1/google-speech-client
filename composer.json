@@ -9,5 +9,8 @@
             "email": "rori.kurniadi@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "google/cloud": "^0.28.0",
+        "php-ffmpeg/php-ffmpeg": "^0.9.3"
+    }
 }
