@@ -39,15 +39,15 @@ if (isset($_POST["upload"])) {
 	      	<?php if (count($messages)) { ?>
 	      		<h2>Result</h2>
 		      	<?php foreach ($messages as $message) { ?>
-		      		<div class="col-md-12" style="border:1px solid #ddd">
-		      			<p><?php echo $message; ?></p>
+		      		<div class="col-md-12">
+		      			<p class="alert alert-info"><?php echo $message; ?></p>
 		      		</div>
 		      		<br>
 		      	<?php } ?>
 	      	<?php } else { ?>
 	      		<h2>Whoops, Something wrong.</h2>
 	      		<div class="col-md-12">
-		      		<p><?php echo $message; ?></p>
+		      		<p class="alert alert-danger"><?php echo $message; ?></p>
 		      	</div>
 	      	<?php } ?>
 
