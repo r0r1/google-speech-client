@@ -11,18 +11,23 @@ class Audio {
 		$this->setName($fileName);
 	}
 
+	/**
+	 * Set Name
+	 * 
+	 * @param string $name
+	 */
 	public function setName($name)
 	{
 		$this->name = $name;
 	}
 
+	/**
+	 * Get name
+	 * 
+	 * @return string
+	 */
 	public function getName()
 	{
 		return $this->name;
-	}
-
-	public function checkFile()
-	{
-		
 	}
 }

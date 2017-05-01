@@ -4,18 +4,40 @@ namespace Rorikurn\GoogleSpeechClient;
 
 class ConvertFile {
 
-	public function __construct()
-	{
+	private $file;
 
+	public function __construct($file)
+	{
+		$this->file = $file;
 	}
 
+	/**
+	 * Validate File must be `audio/*` type
+	 * 
+	 * @return boolean
+	 */
 	public function validate()
 	{
-
+		return true;
 	}
-	
-	public function process($file)
+
+	/**
+	 * Check file must be `audio/flac`
+	 * 
+	 * @return boolean
+	 */
+	private function check()
 	{
-		
+		return true;
+	}
+
+	/**
+	 * Convert file to flac
+	 * 
+	 * @return $file
+	 */
+	public function process()
+	{
+		return $this->file;
 	}
 }
