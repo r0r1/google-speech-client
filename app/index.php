@@ -21,11 +21,11 @@
   <body>
 
     <div class="container">
-      <form class="form-signin">
+      <form class="form-signin" action="upload.php" method="post" enctype="multipart/form-data">
         <h2 class="form-signin-heading">Upload Audio</h2>
-        <input type="file" id="inputEmail" class="form-control" placeholder="Choose File" required>
+        <input type="file" name="audio_file" id="audio_file" class="form-control" placeholder="Choose File" required>
         <br>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Upload</button>
+        <button class="btn btn-lg btn-primary btn-block" name="upload" type="submit">Upload</button>
       </form>
     </div> <!-- /container -->
   </body>
